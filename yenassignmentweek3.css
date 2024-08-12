@@ -1,0 +1,74 @@
+header{
+    text-align: left;
+    color: rgb(246, 238, 238);
+    padding:2.75%;
+    background-color: hsl(0, 0%, 50%);
+}
+
+
+nav{
+    padding: 1%;
+    background-color: hsl(0, 9%, 84%);
+    border-bottom: 2px solid hsl(180, 2%, 8%);
+    
+}
+
+#Resume{
+    width: 5%;
+    float: right;
+}
+
+#ContactMe{
+    width: 5%;
+    float: right;
+}
+
+h3{
+ float: left;
+ width: 50%;
+}
+
+h5{
+    float:  left;
+    width:50%;
+}
+#myPic{
+    width: 20%;
+    border-radius: 50%;
+    margin-right: 20px;
+    float: left;
+}
+
+#myBlurb{
+ float:  left;
+ width: 50%;
+}
+
+.button{
+    margin-top: 20px;
+    border-radius: 100%;
+    width: 10%;
+    background-color: hsl(0, 9%, 84%);
+}
+
+.button:hover{
+    background-color:  hsl(0, 0%, 50%);
+}
+
+section{
+    display:inline-block;
+    margin-left: 100px;
+    padding:12%;
+    background-image: url(Logo.jpg);
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position:right;
+}
+
+footer{
+    text-align: right;
+    font-size: 1em;
+    color: white;
+    border-top: 2px solid hsl(180, 2%, 8%);
+    background-color: hsl(0, 0%, 50%);
+}

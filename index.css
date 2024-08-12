@@ -1,0 +1,105 @@
+header{
+    background-color: hsl(0, 0%, 83%);
+    border-bottom: 2px solid black;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#name p{
+    color: hsl(0, 0%, 6%);
+}
+
+#title p{
+    color: hsl(0, 0%, 0%);
+}
+
+#contactMe:hover{
+    background-color: hsl(0, 1%, 50%);
+}
+
+article{
+    display: flex;
+    padding: 10%;
+    gap: 25px;
+}
+
+#picture{
+    border-radius: 50%;
+}
+
+#aboutMe p{
+    font-size: 1.5em;
+}
+
+#logo{
+    width: 250px;
+    height: 250px;
+}
+
+.buttons{
+    display: flex;
+    justify-content:center;
+    padding: 1.25%;
+    gap: 25px;
+}
+
+#resume{
+    background-color: hsl(0, 0%, 83%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+#resume:hover{
+    background-color: hsl(0, 1%, 50%);
+    font-size: 1.25em;
+    cursor:pointer;
+}
+
+
+#portfolio{
+    background-color:hsl(0, 0%, 83%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+#portfolio:hover{
+    background-color: hsl(0, 1%, 50%);
+    font-size: 1.25em;
+    cursor:pointer;
+}
+
+#gitHub{
+    background-color: hsl(0, 0%, 83%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+#gitHub:hover{
+    background-color: hsl(0, 1%, 50%);
+    font-size: 1.25em;
+    cursor:pointer;
+}
+
+#linkedIn{
+    background-color: hsl(0, 0%, 83%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+#linkedIn:hover{
+    background-color: hsl(0, 1%, 50%);
+    font-size: 1.25em;
+    cursor:pointer;
+}
+
+footer{
+    border-top: 2px solid hsl(0, 0%, 0%);
+    text-align: right;
+    background-color: hsl(0, 0%, 83%);
+    padding: 1.5%;
+}
